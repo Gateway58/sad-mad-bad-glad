@@ -5,7 +5,7 @@ int main()
 {
   for(int i = 1000; i < 10000; i ++){
     
-    if(i%17 && i %137)
+    if(i%17== 0  && i %137 == 0 )
     {
       std::cout << i std::endl; 
     }
