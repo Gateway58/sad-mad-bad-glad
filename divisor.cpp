@@ -7,7 +7,7 @@ int main()
     
     if(i%17== 0  && i %137 == 0 )
     {
-      std::cout << i std::endl; 
+      std::cout << i << std::endl; 
     }
   }
 }
